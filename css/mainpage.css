@@ -1,0 +1,209 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width:100%;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/millionaire01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+}
+h4{
+    font-size: 14px;
+    line-height: 20px;
+}
+.wrapper{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 24rem;
+    height: 95%;
+    background-color: #643ca4;  
+  border: 3px solid #b39cfb;
+}
+header{
+
+    background-color: #f60984;
+    height: 8rem;
+    padding:5px 18px;
+    margin:10px 10px;
+    border-radius: 3px;
+}
+
+.fields{
+    background-color: #f60984;
+    height: 22rem;
+    padding:5px 18px;
+    margin:14px 10px;
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.form{
+    border:2px solid #b39cfb;
+    height: 90%;
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+form{
+    margin-top: 20%;
+    height:80%;
+    
+}
+.form a:first-child{
+    margin-top: 12%;
+}
+.form a{
+    text-decoration: none;
+    display: block;
+    font-size:20px;
+    border: 2px solid #b39cfb;
+    border-radius: 5px;
+    background-color: #190452;
+    color: white;
+    width: 70%;
+    height: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+
+
+    #snackbar, #no-money #you-won{
+        visibility: hidden; /* Hidden by default. Visible on click */
+        min-width: 250px; /* Set a default minimum width */
+        margin-left: -125px; /* Divide value of min-width by 2 */
+        background-color: #333; /* Black background color */
+        color: #fff; /* White text color */
+        text-align: center; /* Centered text */
+        border-radius: 2px; /* Rounded borders */
+        padding: 16px; /* Padding */
+        position: fixed; /* Sit on top of the screen */
+        z-index: 1; /* Add a z-index if needed */
+        left: 50%; /* Center the snackbar */
+        bottom: 30px; /* 30px from the bottom */
+      }
+      
+      /* Show the snackbar when clicking on a button (class added with JavaScript) */
+      #snackbar.show, #no-money.show  #you-won.show{
+        visibility: visible; /* Show the snackbar */
+        /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+        However, delay the fade out process for 2.5 seconds */
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      }
+
+      /* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+  .container{
+      height: 100vh;
+      display: flex;
+      
+  }
+
+  .placeholder{
+    background: darkblue;
+  margin-left: 5rem;
+    width: 14rem;
+  }
+  .user_basic{
+      height: 30vh;
+      margin-right: 5px;
+      margin-left: 10px;
+      margin-top: 5rem;
+      padding: 5px;
+      border: 2px solid lightblue;
+  } 
+.user_name{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+}
+  
+@media screen and (min-width:600px) {
+.inside_username{
+  display: none;  
+}
+
+.fields{
+    height: 25rem;
+}
+.wrapper{
+    height: 100%;
+}
+}
+@media screen and (max-width:600px) {
+    .inside_username{
+        display: inline-block;
+        padding-bottom: 10px;
+        color: white;
+        background: darkblue;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+    .hello{
+        display: none;
+    }
+    .wrapper{
+        width: 95vw;
+        margin: 0 auto;
+        border:2px solid red;
+     height: 100vh;
+    }
+    
+
+    .placeholder{
+       display: none;
+    }
+
+    .container{
+        display: flex;
+       flex-direction: column-reverse;
+ 
+    }
+
+    .form a{
+        
+        font-size:17px;
+        color: white;
+        width: 90%;
+        height: 1.5rem;
+        margin: 0 auto;
+        margin-bottom: 20px;
+     text-overflow: clip;
+    }
+    }    
+
+    .inside_username{
+        margin-left: 20px;
+    }
+
+
+
+

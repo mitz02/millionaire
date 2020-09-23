@@ -1,0 +1,24 @@
+body{
+    
+}
+
+.wrapper{
+    display: flex;
+}
+.wrapper img{
+    display: inline-block;
+    
+}
+
+.image{
+    display: flex;
+    flex-direction:row;
+    max-width: 200px;
+    border: 1px solid red;
+   
+}
+.image img{
+    display: inline-block;
+    max-width: 250px;
+    margin: 0 10px;
+}

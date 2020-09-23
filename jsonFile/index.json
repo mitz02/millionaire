@@ -1,0 +1,139 @@
+
+ 
+
+   
+   {
+   "Questions" : [
+       {
+       
+           "q1": "what is lilac ",
+           "A":"light purple", 
+           "B": "light orange",
+           "C": "all of the above",
+           "D": "true",
+           "ans":"light purple"  
+       },
+{
+        "q1": "what is lilacasjkajs ",
+        "A":"light purple", 
+        "B": "light orange",
+        "C": "all of the above",
+        "D": "true",
+        "ans":"light orange"  
+    
+},
+{
+    "q1": "This questions has the ansa B ",
+    "A":"not the ansa", 
+    "B": "the ansa",
+    "C": "all of the above",
+    "D": "weesad",
+    "ans":"the ansa"  
+
+},
+{
+    "q1": "This questions has the ansa C ",
+    "A":"not the ansc", 
+    "B": "the ansa",
+    "C": "the ansc",
+    "D": "weesad",
+    "ans":"the ansc"  
+
+},
+{
+    "q1": "This questions has the ansa D ",
+    "A":"not the ansd", 
+    "B": "the ansa",
+    "C": "all of the above",
+    "D": "the ansd",
+    "ans":"the ansd"  
+
+},
+
+{
+    "q1": "first man t",
+    "A":"mary jane", 
+    "B": "linus",
+    "C": "edwin",
+    "D": "christopher",
+    "ans":"linus"  
+
+},
+{
+    "q1": "what is my favorite color",
+    "A":"brown", 
+    "B": "orange",
+    "C": "pink",
+    "D": "brown",
+    "ans":"pink"  
+
+},
+{
+    "q1": "what is the color of Nigeria flag ?",
+    "A":"green", 
+    "B": "yellow",
+    "C": "yellow",
+    "D": "brown",
+    "ans":"green"  
+
+},
+{
+    "q1": "what year did Nigeria Gain Independence ?",
+    "A":"1990", 
+    "B": "1960",
+    "C": "1845",
+    "D": "1999",
+    "ans":"1960"  
+
+},
+{
+    "q1": "what are the colors of rainbow ?",
+    "A":"yellow", 
+    "B": "pink",
+    "C": "orange",
+    "D": "blue",
+    "ans":"yellow"  
+
+},
+
+{
+    "q1": "what is the Price of Naira to dollars ?",
+    "A":"340", 
+    "B": "500",
+    "C": "460",
+    "D": "400",
+    "ans":"340"  
+
+}
+
+
+   ],
+   "Intermediate":[
+       {
+        "q1": "Avance question0 ?",
+        "A":"nothing", 
+        "B": "19450",
+        "C": "new",
+        "D": "1999",
+        "ans":"new"
+       },
+
+       {
+        "q1": "Avance question1 ?",
+        "A":"millet", 
+        "B": "19450",
+        "C": "new",
+        "D": "queset",
+        "ans":"queset"
+       },
+
+       {
+        "q1": "Avance question3 ?",
+        "A":"mozaic", 
+        "B": "19450",
+        "C": "fanjoma",
+        "D": "queset",
+        "ans":"mozaic"
+       }
+   ]
+}
